@@ -8,6 +8,6 @@ There is also a UI module developed in Qt5, where I need to use some extra qt pa
 
 Also, I'm created a cmakelist file for compiling code using cmake. On Unix systems, the compiling needs only 2 command:
 
-`cmake .
-`make
+`cmake .`
+`make`
 
