@@ -314,7 +314,7 @@ void QRCodeGenerator::interleaveCodewords(uint maxBlockCount) {
     if (mConfig.groups[1].blockCount == 0 && mConfig.groups[0].blockCount == 1) {
         return;
     }
-    if (*console != nullptr) {
+    if (console != nullptr) {
         *console << "interleaved" << std::endl;
     }
 
